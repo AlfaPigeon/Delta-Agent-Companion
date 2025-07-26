@@ -1,0 +1,9 @@
+{
+  "id": "1bfe7d66-b4dc-43e9-a2ed-3a5fa151781c",
+  "name": "Test Action",
+  "type": "action",
+  "actions": [
+    "test_action"
+  ],
+  "created_at": "2025-07-26T08:34:12.358493"
+}

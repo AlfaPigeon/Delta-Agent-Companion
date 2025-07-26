@@ -1,0 +1,56 @@
+# AI Companion Configuration
+
+# Core Settings
+debug: false
+log_level: "INFO"
+data_directory: "./data"
+host: "localhost"
+port: 8000
+
+# LLM Configuration
+llm:
+  provider: "openai"
+  model: "gpt-4"
+  api_key: null  # Set via environment variable OPENAI_API_KEY
+  base_url: null
+  max_tokens: 4096
+  temperature: 0.7
+  timeout: 30
+
+# Eleven Labs Voice Configuration
+elevenlabs:
+  api_key: null  # Set via environment variable ELEVENLABS_API_KEY
+  voice_id: "21m00Tcm4TlvDq8ikWAM"
+  model_id: "eleven_monolingual_v1"
+  stability: 0.75
+  similarity_boost: 0.75
+
+# Memory System Configuration
+memory:
+  max_memories: 10000
+  consolidation_threshold: 5
+  importance_decay_rate: 0.1
+  abridgment_min_length: 100
+  backup_interval_hours: 24
+
+# Behavior Tree Configuration
+behavior_tree:
+  max_states: 100
+  state_timeout_seconds: 300
+  modification_cooldown_seconds: 60
+  backup_before_modification: true
+
+# Security Configuration
+security:
+  encrypt_memories: true
+  tool_sandbox_enabled: true
+  max_tool_execution_time: 30
+  audit_logging: true
+
+# UI Configuration
+ui:
+  theme: "dark"
+  auto_minimize_to_tray: true
+  show_debug_console: false
+  voice_activation_enabled: true
+  chat_history_limit: 1000
