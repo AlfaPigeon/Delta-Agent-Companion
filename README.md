@@ -12,13 +12,13 @@ An intelligent AI companion system featuring a dynamic behavior tree state machi
 > You can suggest stuctural changes o blueprint.md
 >
 > I will only merge if you progress the project:
->    a. clean up (no vibe code accepted)
->    - Your implementation fallows the best practices as much as possible given context
->    - You either remove unnessesary code or add a nessesary code for functionality
->    b. feature addition (vibe code is accepted if not breaking cleaned up code)
->    - You are adding an interesting module(You can vibe code)
->    - What your adding is modular
->    - it should not break already clean code
+>    - clean up (no vibe code accepted)
+>       - Your implementation fallows the best practices as much as possible given context
+>       - You either remove unnessesary code or add a nessesary code for functionality
+>    - feature addition (vibe code is accepted if not breaking cleaned up code)
+>       - You are adding an interesting module(You can vibe code)
+>       - What your adding is modular
+>       - it should not break already clean code
 > 
 > By mathematical induction this should produce me an ai girlfriend next year or so.
 
