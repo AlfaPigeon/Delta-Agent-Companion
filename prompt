@@ -1,0 +1,26 @@
+you will create a blueprint.md file:
+
+This file will be an artitectural blueprint that has every step of the implementation of a AI Companion.
+
+This AI companion will use llm models to process information both from its state data, context, memory and user input and enviroment state.
+
+Everything in this project should be modular, configurable and best practice.
+
+At its core I want the AI companion to have a behavior tree state machine. But it can decide to add or remove from this behaviour tree states(Except root state).
+
+It will have a memory system, it will not record everything just Abridging the memory entries unless it is decided that it is important information.
+
+Memories will be associated with also states, they will have a weight to them. When they are called they will get stronger, giving them more context.
+
+This AI companion will be able to use tools. it will read this tools from a folder. call them when needed. The user will provide these tools but companion will decide when to use them accourding to their description.(it can dedicate states for spesific tools)
+
+I want you to use eleven labs conversation ai for in and output but for debug purpoises also add a chat UI optional.
+
+This companion will work on an open window (with options, and input-output). But when closed it should go back into system tray(if eleven labs is on it should listen to output and respond only when it is in context)
+
+in this blueprint.md I want you to create a clear structure of 
+- implementation
+- algoritms disected into steps
+- features
+
+Also do think about missing structures, and nice to haves.
